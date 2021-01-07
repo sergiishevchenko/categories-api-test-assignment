@@ -1,7 +1,7 @@
 from django.urls import path
-from .views import CategoriesView, CategoriesGetView
+from .views import CategoriesAPI, CategoriesAPIView
 
 urlpatterns = [
-    path('categories/<id>', CategoriesGetView.as_view()),
-    path('categories', CategoriesView.as_view()),
+    path('categories/<id>', CategoriesAPIView.as_view()),
+    path('categories', CategoriesAPI.as_view()),
 ]
