@@ -14,9 +14,9 @@ python3 manage.py migrate
 запуск механизма миграций 
 python3 manage.py makemigrations
 
-запустить приложение
-python3 manage.py runserver
-
 создание админа
 python manage.py createsuperuser
+
+запустить приложение
+python3 manage.py runserver
 ```
